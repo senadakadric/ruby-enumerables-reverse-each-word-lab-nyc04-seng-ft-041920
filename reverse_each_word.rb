@@ -30,9 +30,7 @@ string_array = string.split(" ")
 
 #solving with .collect
 string_array.collect do |word|
-  word.reverse
-  string_array.join(" ")
+  word.reverse!
 end
-
 
 end
