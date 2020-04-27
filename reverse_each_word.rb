@@ -18,12 +18,18 @@
 
 def reverse_each_word(string)
 
+# solving the problem using .each
 string_array = string.split(" ")
-reversed_array = []
+# reversed_array = []
+#
+# string_array.each do |word|
+#   reversed_array << word.reverse
+# end
+#
+# reversed_array.join(" ")
 
-string_array.each do |word|
-  reversed_array << word.reverse
+#solving with .collect
+string_array.collect do |word|
+  word.reverse
 end
-
-reversed_array.join(" ")
 end
