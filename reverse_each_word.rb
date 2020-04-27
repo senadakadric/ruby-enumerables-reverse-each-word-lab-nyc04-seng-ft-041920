@@ -25,5 +25,5 @@ string_array.each do |word|
   reversed_array << word.reverse
 end
 
-string_array
+reversed_array.join()
 end
