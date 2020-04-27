@@ -24,4 +24,5 @@ string_array.each do |word|
   word.reverse
 end
 
+string_array
 end
