@@ -33,4 +33,5 @@ string_array.collect do |word|
   word.reverse!
 end
 
+string_array.join(" ")
 end
